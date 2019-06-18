@@ -28,6 +28,7 @@ def first_challenge
         # here, each index element in an ice cream flavor string
         if flavor == "strawberry"
           :favorite_icecream_flavors.shift
+        end
       end
     end
   end
