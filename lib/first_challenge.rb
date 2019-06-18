@@ -27,7 +27,7 @@ def first_challenge
       value.each do |flavor|
         # here, each index element in an ice cream flavor string
         if flavor == "strawberry"
-          contact["Freddy Mercury"][:favorite_icecream_flavors].delete(flavor)
+          contacts["Freddy Mercury"][:favorite_icecream_flavors].delete(flavor)
         end
       end
     end
