@@ -7,9 +7,5 @@ def second_challenge
   }
 
   #code your solution here!
-  strGroceries = ""
-  groceries.values.each do |ingredient|
-    strGroceries += "#{ingredient} "
-  end
-  return strGroceries
+
 end
