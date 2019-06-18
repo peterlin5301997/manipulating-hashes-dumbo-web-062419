@@ -27,7 +27,7 @@ def first_challenge
       value.each do |flavor|
         # here, each index element in an ice cream flavor string
         if flavor == "strawberry"
-          flavor.delete
+          :favorite_icecream_flavors.pop(flavor)
         end
       end
     end
